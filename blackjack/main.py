@@ -24,7 +24,7 @@ def calculate_score(list_of_cards):
 
 def compare(user_score, computer_score):
     if user_score == computer_score:
-        return f"DRAW😐\ncomputer final hand:{computer_cards} final score:{sum(computer_cards)}\nyour final hand:{user_cards} final score:{sum(user_cards)}"
+        return f"DRAW😐\ncomputer final ehand:{computer_cards} final score:{sum(computer_cards)}\nyour final hand:{user_cards} final score:{sum(user_cards)}"
     elif user_score == 0:
         return f"YOU WIN😃\ncomputer final hand:{computer_cards} final score:{sum(computer_cards)}\nyour final hand:{user_cards} final score:{sum(user_cards)}"
     elif computer_score == 0:
